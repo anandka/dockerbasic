@@ -1,0 +1,5 @@
+FROM openjdk:7
+COPY DockerServer /usr/src/myapp/DockerServer
+WORKDIR /usr/src/myapp/DockerServer/src
+RUN javac Server.java
+CMD ["java", "Server"]

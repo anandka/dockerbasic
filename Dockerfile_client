@@ -1,0 +1,5 @@
+FROM openjdk:7
+COPY DockerClient /usr/src/myapp/DockerClient
+WORKDIR /usr/src/myapp/DockerClient/src
+RUN javac Client.java
+CMD ["java", "Client"]
