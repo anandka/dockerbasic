@@ -126,7 +126,7 @@ Now we need to sign the certificate request
 ~~~~~~~
 
 
-Now that you have self signed certificates open your ssl.conf and add proxy settings before "</VirtualHost>"
+Now that you have self signed certificates open your ssl.conf and add proxy settings before "< / VirtualHost>"
 
 ~~~~~~~
  vi /etc/httpd/conf.d/ssl.conf
@@ -134,7 +134,7 @@ Now that you have self signed certificates open your ssl.conf and add proxy sett
 ~~~~~~~
 
 
-Add the following entries before "</VirtualHost>"
+Add the following entries before "< / VirtualHost>"
 
 ~~~~~~~
 ProxyRequests off
