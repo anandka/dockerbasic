@@ -197,7 +197,7 @@ To do this locally so that we can use Docker from the Docker registry server its
 
 ~~~~~~~~
 
-If your domain name doesnt have a DNS then please enter your ip and domain name in /etc/hosts
+If your domain name doesnt have a DNS entry then please enter your ip and domain name in /etc/hosts
 
 ~~~~~~
  vi /etc/hosts
